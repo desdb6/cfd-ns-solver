@@ -1,6 +1,7 @@
 # ns-cf-solver
 
 A Python library for simulating 2D incompressible Newtonian fluid dynamics, built on finite-difference discretisation of the Navier-Stokes equations.
+This project includes the toolbox, a demo script, and an in depth-report on various hydrodynamic problems investigated using the ns-cf-library.
 
 ---
 
