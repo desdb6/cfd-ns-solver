@@ -1,4 +1,4 @@
-# pyflow2d
+# ns-cf-solver
 
 A Python library for simulating 2D incompressible Newtonian fluid dynamics, built on finite-difference discretisation of the Navier-Stokes equations.
 
@@ -21,8 +21,8 @@ A Python library for simulating 2D incompressible Newtonian fluid dynamics, buil
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/pyflow2d.git
-cd pyflow2d
+git clone https://github.com/desdb6/ns-cf-solver.git
+cd ns-cf-solver
 pip install numpy matplotlib
 ```
 
@@ -31,7 +31,7 @@ pip install numpy matplotlib
 ## Quick Start
 
 ```python
-from pyflow2d import NewtonianFluid
+from ns-cf-solver import NewtonianFluid
 
 # Create a 1x1 domain with dx=dy=0.05, dt=0.001
 fluid = NewtonianFluid(
